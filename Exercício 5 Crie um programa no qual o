@@ -1,0 +1,31 @@
+programa
+{
+	inteiro altura, largura, profundidade, result //inteiro armazena variaveis do tipo numeral
+	
+	funcao inicio()
+	{
+		escreva("Qual é altura? ") //escreva e uma caixa de texto e dentro do "" aparece para o usuraio final para inserir dados
+		leia(altura) //leia amaerzena dados na variavel que está dentro do ()
+		
+		escreva("Qual é a largura? ")
+		leia(largura)
+
+		escreva("Qual é a profundidade? ")
+		leia(profundidade)
+
+		result = altura * largura * profundidade // multiplica as variaveis devido o operador aritimetico * e depois amarzena na variavel por causa do atribuidor =
+
+		escreva("\nA caixa de agua tem capacicade de " + result + "cm³")
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 594; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
